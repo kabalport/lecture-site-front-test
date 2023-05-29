@@ -6,7 +6,7 @@ interface HomePageIntroProps {
     subtitle?: string;
 }
 
-const HomePageIntro: React.FC<HomePageIntroProps> = ({ title, subtitle }) => {
+const HomeText: React.FC<HomePageIntroProps> = ({ title, subtitle }) => {
     return (
         <Box>
 
@@ -23,4 +23,4 @@ const HomePageIntro: React.FC<HomePageIntroProps> = ({ title, subtitle }) => {
     );
 };
 
-export default HomePageIntro;
+export default HomeText;

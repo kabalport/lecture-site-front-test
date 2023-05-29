@@ -4,9 +4,9 @@ import './MenuBar.css';
 import { Link as RouterLink } from 'react-router-dom';
 import {Box, Button} from "@mui/material";  // Make sure to import the CSS
 
-import SearchBox from "../../components/MenuBar/SearchBox";
-import TitleBox from "../../components/MenuBar/TitleBox";
-import MenuBox from "../../components/MenuBar/MenuBox";
+import SearchBox from "../components/MenuBar/SearchBox";
+import TitleBox from "../components/MenuBar/TitleBox";
+import MenuBox from "../components/MenuBar/MenuBox";
 
 
 const MenuBar: React.FC = () => {

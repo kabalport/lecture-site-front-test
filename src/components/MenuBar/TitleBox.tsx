@@ -3,15 +3,13 @@ import {Box, Typography} from "@mui/material";
 import SearchIcon from "@material-ui/icons/Search";
 import React from "react";
 import { Link } from 'react-router-dom';
-
+import Logo from './REFA_LOGO.png';  // import the image
 
 const TitleBox: React.FC = () => {
     return (
         <Box display="flex" flexDirection="row" alignItems="center">
             <Link to="/" style={{ textDecoration: 'none', color: 'inherit' }}>
-                <Typography style={{fontWeight: 700, fontSize: '19px', whiteSpace: "nowrap", marginLeft: '16px', letterSpacing: '-0.38px', lineHeight: '28px'}}>
-                    부융아
-                </Typography>
+                <img src={Logo} alt="Logo" style={{marginLeft: '16px'}} />
             </Link>
             <Link to="/" style={{ textDecoration: 'none', color: 'inherit' }}>
                 <Typography style={{fontWeight: 700, fontSize: '19px', whiteSpace: "nowrap", marginLeft: '16px', letterSpacing: '-0.38px', lineHeight: '28px'}}>
